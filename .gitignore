@@ -1,0 +1,78 @@
+# =======================
+# 📟 Arduino / Embedded
+# =======================
+*.hex
+*.elf
+*.eep
+*.bin
+*.d
+*.o
+*.a
+*.log
+*.bak
+*.tmp
+*.swp
+
+# Arduino IDE backup & build files
+*.ino.*
+build/
+*.pro.user
+
+# PlatformIO
+.pio/
+.vscode/
+.clangd/
+*.code-workspace
+
+# Libraries installed in sketchbook
+libraries/
+
+# Fritzing temporary files
+*.fz
+*.fzp
+*.fzpz
+*.fzz
+
+# =======================
+# 🐍 Python / Jupyter
+# =======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+env/
+*.sqlite3
+
+# =======================
+# 💻 Operating Systems
+# =======================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+Icon?
+._*
+
+# =======================
+# 📦 IDE & Editor Configs
+# =======================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# =======================
+# 🚀 Git backup/patch
+# =======================
+*.orig
+*.rej
+*.patch
+*.diff
